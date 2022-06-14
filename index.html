@@ -73,38 +73,54 @@
             <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
             <form>
               <div class="modal-field">
-              <label for="user-name" class="modal-label"
-                >Имя</label>
-                <input type="text" class="modal-input" name="user-name" required minlength="2" 
-                id="user-name"
+                <label for="user-name" class="modal-label">Имя</label>
+                <input
+                  type="text"
+                  class="modal-input"
+                  name="user-name"
+                  required
+                  minlength="2"
+                  id="user-name"
                 />
               </div>
 
               <div class="modal-field">
-              <label for="user-tel" class="modal-label"
-                >Телефон</label>
-                <input type="tel" class="modal-input" name="user-tel" required 
-                id="user-tel"
-                />
+                <label for="user-tel" class="modal-label">Телефон</label>
+                <input type="tel" class="modal-input" name="user-tel" required id="user-tel" />
               </div>
-                <div class="modal-field">
-              <label for="user-email" class="modal-label"
-                >Почта</label>
-                <input type="email" class="modal-input" name="user-email" required 
-                id="user-email"
+              <div class="modal-field">
+                <label for="user-email" class="modal-label">Почта</label>
+                <input
+                  type="email"
+                  class="modal-input"
+                  name="user-email"
+                  required
+                  id="user-email"
                 />
               </div>
 
               <div class="modal-field">
-                <label for="user-text" class="modal-label"
-                  >Комментарий</label>
-                  <textarea class="modal-text" name="user-text" id="user-text" placeholder="Введите текст"></textarea>
-                </div>
-              
-                <div class="checkbox-modal">
-                  <input type="checkbox" name="user-policy" value="checkbox-policy" id="checkbox-policy">
-                  <label for="checkbox-policy">Соглашаюсь с рассылкой и принимаю <a class="link-modal" href="">Условия договора</a></label>
-                  </div>
+                <label for="user-text" class="modal-label">Комментарий</label>
+                <textarea
+                  class="modal-text"
+                  name="user-text"
+                  id="user-text"
+                  placeholder="Введите текст"
+                ></textarea>
+              </div>
+
+              <div class="checkbox-modal">
+                <input
+                  type="checkbox"
+                  name="user-policy"
+                  value="checkbox-policy"
+                  id="checkbox-policy"
+                />
+                <label for="checkbox-policy"
+                  >Соглашаюсь с рассылкой и принимаю
+                  <a class="link-modal" href="">Условия договора</a></label
+                >
+              </div>
 
               <button class="button-form" type="submit">Отправить</button>
             </form>
@@ -475,6 +491,24 @@
               </svg>
             </a>
           </div>
+        </div>
+
+        <div class="subscribe">
+          <b class="text-footer">Подпишитесь на рассылку</b>
+          <form class="subscribe-form">
+            <div class="subscribe-container">
+              <label class="subscribe-label">
+                <input
+                  type="email"
+                  class="email-inpat-subscribe"
+                  name="user-mail-subscribe"
+                  placeholder="E-mail"
+                />
+              </label>
+
+              <button class="button-subscribe" type="submit">Подписаться</button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
