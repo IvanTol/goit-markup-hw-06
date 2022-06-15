@@ -73,7 +73,6 @@
             <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
             <form class="form">
               <div class="modal-field">
-                <label for="user-name" class="modal-label">Имя</label>
                 <input
                   type="text"
                   class="modal-input"
@@ -82,13 +81,21 @@
                   minlength="2"
                   id="user-name"
                 />
+                <label for="user-name" class="modal-label">Имя</label>
+                <svg class="form-svg-icon" width="12" height="12">
+                  <use href="./images/icons.svg#icon-person"></use>
+                </svg>
               </div>
               <div class="modal-field">
-                <label for="user-tel" class="modal-label">Телефон</label>
+                
                 <input type="tel" class="modal-input" name="user-tel" required id="user-tel" />
+                <label for="user-tel" class="modal-label">Телефон</label>
+                <svg class="form-svg-icon" width="13" height="13">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
               </div>
               <div class="modal-field">
-                <label for="user-email" class="modal-label">Почта</label>
+                
                 <input
                   type="email"
                   class="modal-input"
@@ -96,6 +103,10 @@
                   required
                   id="user-email"
                 />
+                <label for="user-email" class="modal-label">Почта</label>
+                <svg class="form-svg-icon" width="15" height="12">
+                  <use href="./images/icons.svg#icon-email"></use>
+                </svg>
               </div>
               <div class="modal-field">
                 <label for="user-text" class="modal-label">Комментарий</label>
@@ -198,7 +209,7 @@
           </ul>
         </div>
       </section>
-      <!----------------------------------------------command section (наша команда)------------------------------------------>
+      <!--command section (наша команда)-->
       <section class="section-command section">
         <div class="container">
           <h2 class="section-title-desc">Наша команда</h2>
@@ -490,7 +501,7 @@
           </div>
         </div>
 
-        <div class="subscribe">
+        <div class="subscribe-futer">
           <p class="text-footer">Подпишитесь на рассылку</p>
           <form class="subscribe-form">
             <div class="subscribe-container">
