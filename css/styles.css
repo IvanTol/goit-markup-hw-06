@@ -402,6 +402,11 @@ header {
   border-radius: 4px;
 }
 
+
+.modal-field input:focus {
+  outline: none
+}
+
 /* .modal-field input:hover,
 .modal-field input:focus {
 } */
@@ -432,6 +437,7 @@ header {
 
 }
 
+
 .modal-field input:focus-within + .form-svg-icon,
 .modal-field input:hover + .form-svg-icon {
   fill: var(--accent-color);
@@ -439,6 +445,15 @@ header {
 
 .modal-field input:focus,
 .modal-field input:hover {
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+}
+
+.modal-text:focus {
+  outline: none}
+
+.modal-text:focus,
+.modal-text:hover {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
 }
