@@ -437,6 +437,13 @@ header {
 
 }
 
+.input-svg {
+  
+}
+
+.modal-field label + .input-svg {
+  transform: translateY(50%);
+}
 
 .modal-field input:focus-within + .form-svg-icon,
 .modal-field input:hover + .form-svg-icon {
