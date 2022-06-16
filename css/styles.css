@@ -437,11 +437,8 @@ header {
 
 }
 
-.input-svg {
-  
-}
-
-.modal-field label + .input-svg {
+ .modal-label + .input-svg {
+  position: relative;
   transform: translateY(50%);
 }
 
