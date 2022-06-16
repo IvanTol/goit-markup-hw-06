@@ -343,7 +343,6 @@ header {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
 
-
   background: #fff;
 
   transition-duration: 250ms;
@@ -373,147 +372,38 @@ header {
   margin-bottom: 12px;
 }
 
+/* Форма модального окна */
 .form {
   margin-bottom: 0;
 }
 
 .modal-field {
-  position: relative;
-
   display: flex;
-  flex-direction: column;
-  margin-bottom: 10px;
+flex-direction: column;
+  margin-bottom: 28px;
+}
+
+.modal-field .field-text {
+ margin-bottom: 4px;
 }
 
 .modal-field input {
-  
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.01em;
-
-  margin: 0;
+  width: 100%;
   height: 40px;
-  cursor: pointer;
-
-  padding: 12px 15px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-}
-
-/* .modal-field input:hover,
-.modal-field input:focus {
-} */
-
-.modal-field label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-
-  color: var(--title-text-color);
-}
-
-.modal-input + .modal-label {
-}
-
-.form-svg-icon {
-  position: absolute;
-  top: 0;
-  left: 0px;
-
-  transform: translateY();
-
-  display: inline-block;
-  color: rgba(33, 33, 33, 1);
 
 }
 
 .modal-field textarea {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.01em;
-
   width: 100%;
-  height: 120px;
-
-  padding: 12px 16px;
+  height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  resize: none;
+
+  margin-bottom: 28px;
 }
 
-.modal-field textarea::placeholder {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.01em;
-
-  color: rgba(117, 117, 117, 0.5);
-}
-
-/* .modal-field textarea:hover,
-.modal-field textarea:focus {
-} */
-
-.checkbox-modal {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-
-  margin-bottom: 30px;
-
-  text-align: center;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-
-  color: var(--title-text-color);
-}
-
-.checkbox-modal input ['type=checkbox'] {
-}
-
-.link-modal {
-  color: var(--accent-color);
-}
-
-.button-form {
-  display: flex;
-
-  min-width: 200px;
-  height: 50px;
-
-  padding: 0;
-  margin: 0 auto;
-
-  justify-content: center;
-  align-items: center;
-
-  color: var(--hero-text-color);
-  background-color: var(--accent-color);
-
-  font-family: Roboto, sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
-
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button-form:hover,
-.button-form:focus {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
 
 /* блок секций (чем мы занимаемся) */
 
@@ -696,7 +586,6 @@ header {
   flex-basis: calc(100% / 3 - 30px);
 
   margin-left: 30px;
-
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
