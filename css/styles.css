@@ -546,7 +546,7 @@ header {
 .checkbox:checked + .icon-check {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
-  background-image: url('/images/icon-chek.svg');
+  background-image: url('../images/icon-chek.svg');
   background-size: contain;
   background-origin: border-box;
 
